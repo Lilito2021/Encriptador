@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2? family= Silkscreen & display=swap');
+/*CSS para 1er Challenge de Alura "Encriptador"*/
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    /*font-size: 22px;*/
+    line-height: 100%;
+}
+body{
+    background-color: #DAF7A6 ;
+}
+.container{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    border: none;
+    
+    background-color:#008080 ;
+    width: 100%;
+    height: 100px;
+}
+.col-lg-4{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size:xx-large;
+
+}
+.informacion{
+    vertical-align: middle;
+    margin-left: 50px;
+
+}
+main{
+    display: flex;
+    margin-left: 250px;
+    margin-bottom: 80px;
+}
+h1{
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+}
+
+.input-texto{
+    margin-top: 60px;
+    margin-left: 60px;
+    border: none;
+    background-color: rgb(246, 241, 235);
+    border-radius: 8px;
+    border: none;
+    font-size: 22px;
+    line-height: 100%;
+    margin-bottom: 30px;
+}
+.informacion{
+    padding: 5px;
+    
+}
+.mensaje{
+    position: relative;
+    margin-top: 60px;
+    margin-left: 50px;
+    background-image: url(imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 200px;
+    border-radius: 8px;
+    border: none;
+    font-size: 22px;
+    line-height: 100%;
+}
+
+.copiar {
+    /*position: relative;*/
+    margin-top: 77px;
+    margin-left: 85px;
+    background-position: center;
+    background-size: 200px;
+    border: 1px solid #008080;
+    color:  #008080;
+    width: 200px;
+    border-radius: 14px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    padding: 10px 50px;
+}
+.copiar:hover{
+    background-color: #e2b135;
+}
+.botones {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    background-color:  #008080;
+    color:white;
+    width: 200px;
+    border-radius: 14px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    padding: 10px 50px;
+    border: none;
+    
+}
+.encriptar:hover{
+    background-color: #49b549;
+}
+.desencriptar {
+    border: 1px solid  #008080;
+    color:  #008080;
+    width: 200px;
+    border-radius: 14px;
+    margin-left: 30px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    padding: 10px 50px;
+}
+.desencriptar:hover{
+    background-color: #b0da2f;
+}

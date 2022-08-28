@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--Html para el 1er Challenge Encriptador de Alura-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="imagenes/Vector.png" align="left" >
+                    <h1>Encriptador de texto</h1>
+                    
+                </div>
+            </div>
+        </div> 
+    </header>
+    <main>
+        <section>
+            <textarea  id="ph" class="input-texto" cols="20" rows="10" 
+            placeholder="Ingrese el texto aqui"></textarea>
+            <div id="div-desaparece">
+                <p> 
+                    <img src="imagenes/informacion.png" class="informacion">Solo letras minúsculas y sin acentos. 
+                </p> 
+                
+            </div>
+            <div class="botones">
+                <button class="encriptar" onclick="btnEncriptar() ">
+                    Encriptar
+                </button>
+                <button class="desencriptar" onclick="btnDesencriptar() ">
+                    Desencriptar
+                </button>
+            </div>
+        </section>
+        <section class="mensaje-box">
+            <textarea id="ph" class="mensaje"cols="20" rows="10"
+            placeholder="Ningún mensaje"></textarea>
+            <button class="copiar"onclick="copiar()" style="display:block;">Copiar</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
